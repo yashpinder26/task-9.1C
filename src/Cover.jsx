@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';  // Assuming you have a CSS file for the Cover component
-import coverImage from './img/image.png'; // Import the image
+import './App.css';  
+import coverImage from './img/image.png'; 
 
 function Cover() {
   return (
