@@ -31,16 +31,16 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Align inputs to the center */
+  align-items: center; 
   gap: 20px;
   width: 100%;
 }
 
 .input-group {
-  width: 100%; /* Make input group width consistent */
+  width: 100%; 
   display: flex;
-  flex-direction: column; /* Stack label and input */
-  align-items: center; /* Center align input and label */
+  flex-direction: column; 
+  align-items: center; 
   text-align: center;
 }
 
@@ -51,7 +51,7 @@ form {
 }
 
 .custom-input {
-  width: 85%; /* Center-aligned inputs with reduced width */
+  width: 85%; 
   padding: 12px;
   border: 1px solid #cccccc;
   border-radius: 6px;
@@ -81,7 +81,7 @@ form {
   cursor: pointer;
   background-color: #a0a0a0;
   color: #ffffff;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none; 
 }
 
 .submit-btn:hover, .google-btn-123:hover {
