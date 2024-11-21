@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './login.css';
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth, signInWithGoogle } from "./firebase"; // Import Google sign-in function
+import { auth, signInWithGoogle } from "./firebase"; 
 import { Link, useNavigate } from "react-router-dom";
 
 function Login() {
@@ -9,11 +9,11 @@ function Login() {
     const [pass, setPass] = useState('');
     const [message, setMessage] = useState('');
     const [isLoggedIn, setIsLoggedIn] = useState(false);
-    const navigate = useNavigate(); // Initialize useNavigate for redirection
+    const navigate = useNavigate(); 
 
     useEffect(() => {
         if (isLoggedIn) {
-            navigate('/'); // Redirect to home page if logged in
+            navigate('/'); 
         }
     }, [isLoggedIn, navigate]);
 
@@ -22,18 +22,18 @@ function Login() {
         try {
             await signInWithEmailAndPassword(auth, email, pass);
             setMessage("User logged in successfully");
-            setIsLoggedIn(true); // Set logged in state to true
+            setIsLoggedIn(true);
         } catch (error) {
-            setMessage(error.message); // Display error message
+            setMessage(error.message);
         }
     };
 
     const handleGoogleLogin = async () => {
         try {
-            await signInWithGoogle(); // Trigger Google login
-            setIsLoggedIn(true); // Set logged in state to true
+            await signInWithGoogle(); 
+            setIsLoggedIn(true);
         } catch (error) {
-            setMessage(error.message); // Display error message
+            setMessage(error.message); 
         }
     };
 
