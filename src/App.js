@@ -4,7 +4,7 @@ import NavBAR from './navbar.jsx';
 import Login from './Login.jsx';
 import SignUp from './register.jsx';
 import Home from './Home.jsx';
-import Cover from './Cover';  // Import the Cover component
+import Cover from './Cover';  
 import { auth } from './firebase.jsx';
 import './App.css';
 
