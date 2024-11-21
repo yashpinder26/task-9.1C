@@ -38,7 +38,7 @@ function SignUp() {
             }
             setMessage("Registration successful!");
             setIsRegistered(true);
-            navigate('/'); // Redirect to homepage on success
+            navigate('/'); 
         } catch (error) {
             setMessage(error.message);
         }
