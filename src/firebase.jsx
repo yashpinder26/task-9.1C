@@ -3,7 +3,6 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-// Your Firebase config object
 const firebaseConfig = {
   apiKey: "AIzaSyDNJ_Xzfazg5oj7reDD6HW20H6R-oCgP4U",
   authDomain: "task-sit-313.firebaseapp.com",
@@ -19,10 +18,8 @@ const analytics = getAnalytics(app);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
 
-// Google Authentication Provider
 const googleProvider = new GoogleAuthProvider();
 
-// Function to handle Google Sign-In
 export const signInWithGoogle = () => {
   return signInWithPopup(auth, googleProvider);
 };
