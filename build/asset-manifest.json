@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.021a1a09.css",
+    "main.js": "/static/js/main.dc0957ee.js",
+    "static/media/fascinating-huge-mountain-range-after-sunset-free-image.jpeg": "/static/media/fascinating-huge-mountain-range-after-sunset-free-image.c41656a9e42d8ea4e53c.jpeg",
+    "static/media/image.png": "/static/media/image.d539e20c7191ebf6edbc.png",
+    "index.html": "/index.html",
+    "main.021a1a09.css.map": "/static/css/main.021a1a09.css.map",
+    "main.dc0957ee.js.map": "/static/js/main.dc0957ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.021a1a09.css",
+    "static/js/main.dc0957ee.js"
+  ]
+}
